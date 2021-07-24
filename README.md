@@ -6,11 +6,13 @@ Amal Majida Binti Munir A174807
 
 ### Instructions 
 - Launch world : 
-                * cd tiago_public_ws
-                *source ./devel/setup.bash
-                *roslaunch tiago_gazebo empty_world.launch public_sim:=true world:=project10
+- cd tiago_public_ws
+- source ./devel/setup.bash
+- roslaunch tiago_gazebo empty_world.launch public_sim:=true world:=project10
                  
-- Grasping :     - roslaunch tiago_pick_demo pick_demo.launch
-                 - rosservice call /pick_pringles
+- Grasping :     
+- roslaunch tiago_pick_demo pick_demo.launch
+- rosservice call /pick_pringles
                  
-- Move Robot :   - rosrun simple_controller controller2.py
+- Move Robot :  
+- rosrun simple_controller controller2.py
